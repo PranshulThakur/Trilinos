@@ -212,6 +212,9 @@ typedef MueLu::PatternFactory<Scalar,LocalOrdinal,GlobalOrdinal,Node> PatternFac
 #ifdef MUELU_PERFUTILS_SHORT
 typedef MueLu::PerfUtils<Scalar,LocalOrdinal,GlobalOrdinal,Node> PerfUtils;
 #endif
+#ifdef MUELU_PERFMODELS_SHORT
+typedef MueLu::PerfModels<Scalar,LocalOrdinal,GlobalOrdinal,Node> PerfModels;
+#endif
 #ifdef MUELU_PERMUTATIONFACTORY_SHORT
 typedef MueLu::PermutationFactory<Scalar,LocalOrdinal,GlobalOrdinal,Node> PermutationFactory;
 #endif
